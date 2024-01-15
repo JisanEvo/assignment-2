@@ -1,3 +1,120 @@
-h2{
-    color: aqua;
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+
+}
+
+body {
+    /* margin-left: 135px; */
+    /* margin-right: 135px; */
+}
+
+/* shared Style  */
+
+
+
+
+
+
+
+
+/* Hedaer Style  */
+
+
+
+
+header {
+    background-image: url("/Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+.header-container {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    text-align: center;
+    padding-top: 106px;
+    padding-bottom: 106px;
+}
+
+
+.header-title {
+    color: #FFF;
+    font-size: 4 rem;
+    font-weight: 800;
+}
+
+.header-description {
+    color: #FFF;
+    font-weight: 400;
+    padding-bottom: 48px;
+}
+
+.input-container{
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+}
+
+.input-button {
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    width: 174px;
+    height: 52px;
+    margin-right: 24px;
+    padding-left: 16px;
+}
+
+.find-now {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    padding-left: 16px;
+}
+
+
+/* popular section style */
+.popular-section{
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsive for Mobilee Phone */
+
+@media screen and (max-width : 600px) {
+
+    header{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
+    .header-description {
+        flex-wrap: wrap;
+    }
+.input-button {
+    width: 255px;
+    margin-bottom: 16px;
+}
+.find-now{
+    width: 260px;
+
+}
 }
