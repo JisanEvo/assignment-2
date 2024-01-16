@@ -29,10 +29,40 @@ body {
 
 /* Hedaer Style  */
 
+nav{
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+nav >ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li>a{
+    color: var(--Dark-02, #424247);
+text-decoration: none;
+font-size: 1.125rem;
+font-weight: 700;
+}
+.home{
+    color: #FF5400;
+}
+.three-bar{
+    display: none;
+}
 
 
-
-header {
+.logo{
+    display: flex;
+}
+.header-section {
     background-image: url("/Images/Group\ 13\ \(1\)\ \(1\).png");
     background-repeat: no-repeat;
     border-radius: 16px;
@@ -392,8 +422,28 @@ font-size: 1.25rem;
 font-weight: 800px;
 color: #FFF;
 
+}
+.discount-image-container{
+    position: relative;
+}
+
+.discount-seventy{
+    border-radius: 16px;
+background: #FF5400;
+width: 324px;
+height: 120px;
+color: #FFF;
+text-align: center;
+/* padding-top: 20px; */
+position: absolute;
+bottom: 22%;
+transform: rotate(-40deg);
+left: 52%;
+/* font-size: 0.5rem; */
+
 
 }
+
 /* footer section */
 .destination{
     display: flex;
@@ -420,9 +470,24 @@ margin-top: 100px;
 
 @media screen and (max-width: 600px) {
 
+nav{
+    margin-left: 5px;
+}
+.nav-bar{
+    display: none;
+
+}
+
+.three-bar{
+    display: flex;
+
+margin-left: 5px;
+margin-right: -110px;
+align-items: center;
+}
 
 
-        header {
+       .header-section {
             margin-left: 5px;
             margin-right: 5px;
         }
@@ -438,7 +503,7 @@ margin-top: 100px;
         }
 
         .find-now {
-            width: 260px;
+            width: 75%;
 
         }
 
@@ -622,4 +687,12 @@ margin-top: 20px;
     .subscribe-button{
         width: 100%;
     }
+
+    .discount-seventy{
+        width: 200px;
+position: absolute;
+padding-top: 5px;
+left: 40%;
+    }
+
 }
