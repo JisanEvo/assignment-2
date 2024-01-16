@@ -63,7 +63,7 @@ font-weight: 700;
     display: flex;
 }
 .header-section {
-    background-image: url("/Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-image: url("/Images/header.png");
     background-repeat: no-repeat;
     border-radius: 16px;
     background-size: cover;
