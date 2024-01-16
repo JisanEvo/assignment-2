@@ -13,12 +13,12 @@ body {
 
 /* shared Style  */
 
-.font-fourty{
+.font-fourty {
     color: #131318;
 
-font-size: 2.5rem;
+    font-size: 2.5rem;
 
-font-weight: 800;
+    font-weight: 800;
 
 }
 
@@ -61,9 +61,9 @@ header {
     padding-bottom: 48px;
 }
 
-.input-container{
+.input-container {
     border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.30);
 }
 
 .input-button {
@@ -88,29 +88,30 @@ background: rgba(255, 255, 255, 0.30);
 
 
 /* popular section style */
-.popular-section{
+.popular-section {
     margin-left: 135px;
     margin-right: 135px;
     display: flex;
     margin-top: 100px;
 }
-.Popular{
+
+.Popular {
     width: 50%;
     padding-right: 53px;
 }
 
-.popular-description{
+.popular-description {
     margin-bottom: 24px;
 }
 
-.read-button{
+.read-button {
     font-size: 1.25rem;
     font-weight: 800;
     border-radius: 8px;
     background: #FF5400;
     border: none;
     color: #FFF;
-    padding-left:35px;
+    padding-left: 35px;
     padding-right: 35px;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -120,206 +121,505 @@ background: rgba(255, 255, 255, 0.30);
 
 
 
-.Popular-img-container img{
+.Popular-img-container img {
     width: 100%;
 }
 
 
-.grid-img-container{
+.grid-img-container {
     margin-left: 135px;
     margin-right: 135px;
 }
 
-.choose-content{
+.choose-content {
     margin-top: 100px;
     text-align: center;
 }
 
-.image-container{
+.image-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 24px;
-margin-top: 48px;
+    margin-top: 48px;
 }
 
-.image-container img{
+.image-container img {
     width: 100%;
     height: 100%;
-object-fit: cover;
-border-radius: 16px;
+    object-fit: cover;
+    border-radius: 16px;
 }
-.grid-item1{
-    grid-column:1/span 6;
+
+.grid-item1 {
+    grid-column: 1/span 6;
     grid-row: 1/span 1;
 }
-.grid-item2{
+
+.grid-item2 {
     grid-column: 7/span 6;
     grid-row: 1/span 1;
 }
 
-.grid-item3{
-grid-column: 1/span 3;
-grid-row: 2/span 1;
+.grid-item3 {
+    grid-column: 1/span 3;
+    grid-row: 2/span 1;
 }
-.grid-item4{
+
+.grid-item4 {
     grid-column: 4/span 6;
     grid-row: 2/span 1;
 }
-.grid-item5{
+
+.grid-item5 {
     grid-column: 10/span 3;
     grid-row: 2/span 1;
 }
-.grid-item6{
+
+.grid-item6 {
     grid-column: 1/span 6;
     grid-row: 3/span 1;
 }
-.grid-item7{
+
+.grid-item7 {
     grid-column: 7/span 6;
     grid-row: 3/span 1;
 }
 
 /* choose section */
 
-.choose-section{
+.choose-section {
     margin-left: 135px;
     margin-right: 135px;
 }
 
-.card-container{
+.card-container {
     display: flex;
     margin-top: 48px;
 }
-.card-title{
+
+.card-title {
     font-size: 1.5rem;
-font-weight: 800;
+    font-weight: 800;
 }
 
-.card1{
+.card1 {
     border-radius: 16px;
-border: 1px solid rgba(251, 181, 99, 0.20);
-background: rgba(251, 181, 99, 0.05);
-width: 50%;
-margin-right: 24px;
-padding-left: 32px;
-padding-top: 32px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 50%;
+    margin-right: 24px;
+    padding-left: 32px;
+    padding-top: 32px;
 }
-.card2{
+
+.card2 {
     border-radius: 16px;
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
-width: 50%;
-padding-left: 32px;
-padding-top: 32px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 50%;
+    padding-left: 32px;
+    padding-top: 32px;
 }
 
-.card3{
+.card3 {
     border-radius: 16px;
-border: 1px solid rgba(233, 68, 68, 0.20);
-background: rgba(233, 68, 68, 0.05);
-padding-left: 32px;
-padding-top: 32px;
-text-align: center;
-width: 50%;
-margin: auto;
-margin-top: 24px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding-left: 32px;
+    padding-top: 32px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 24px;
+
+}
+
+/* discount section  */
+.discount {
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 100px;
+}
+
+.discount-content {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.discount-banner {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 50%;
+    margin-left: 535px;
+    padding: 32px;
+}
+
+.discount-icon {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding-left: 24px; */
+}
+
+.discount-icon p {
+    padding-right: 24px;
+}
+
+.discount-title {
+    color: #131318;
+    font-weight: 800;
+    font-size: 1.5rem;
+
+}
+
+.discount-price {
+    font-weight: 800;
+    color: #FF5400;
+    font-size: 1.25rem;
+}
+
+.book-now {
+    border-radius: 8px;
+    background: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border: none;
+    color: #FFF;
+    width: 150px;
+    height: 52px;
+
+}
+
+.discount-banner1 {
+    background-image: url("/Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    background-size: cover;
+    padding-right: 56px;
+    margin-top: 48px;
+}
+
+.thailand-banner {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 50%;
+    padding: 32px;
+    margin-left: 56px;
 
 }
 
 
 
+.discount-banner2 {
+    background-image: url("/Images/Group\ 40.png");
+    background-repeat: no-repeat;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    background-size: cover;
+    padding-right: 56px;
+    margin-top: 48px;
+}
 
-/* responsive for Mobilee Phone */
+.pack-btn {
+    margin-left: 136px;
+    margin-right: 136px;
+    margin-top: 48px;
+}
 
-@media screen and (max-width : 600px) {
+.packeg-button {
+    border-radius: 8px;
+    background: #FF5400;
+    font-weight: 800;
+    font-size: 1.25rem;
+    border: none;
+    padding: 15px;
+    color: #FFF;
+    margin-left: 615px;
+    /* margin-right: 615px; */
+}
 
-    header{
+
+
+.perfect-place{
+    display: flex;
+    margin-left: 136px;
+    margin-right: 136px;
+    margin-top: 100px;
+}
+
+.perfect-description{
+    padding-right: 28px;
+}
+.see-more{
+    padding-top: 32px;
+}
+
+/* newsletter style */
+.newsletter{
+    margin-left: 136px;
+    margin-right: 136px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.subscibe{
+    width: 393px;
+height: 52px;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: none;
+color: rgba(19, 19, 24, 0.30);
+padding: 20px;
+margin-bottom: 16px;
+}
+
+.subscribe-button{
+    width: 393px;
+height: 52px;
+border: none;
+border-radius: 8px;
+background: #FF5400;
+/* padding: 20px; */
+font-size: 1.25rem;
+font-weight: 800px;
+color: #FFF;
+
+
+}
+/* footer section */
+.destination{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+footer{
+background: rgba(19, 19, 24, 0.05);
+margin-top: 100px;
+}
+.social-media i{
+    padding: 10px;
+}
+.footer-section{
+    text-align: center;
+}
+
+
+
+
+    /* responsive for Mobilee Phone */
+
+
+@media screen and (max-width: 600px) {
+
+
+
+        header {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+
+        .header-description {
+            flex-wrap: wrap;
+        }
+
+        .input-button {
+            width: 255px;
+            margin-bottom: 16px;
+        }
+
+        .find-now {
+            width: 260px;
+
+        }
+
+        .popular-section {
+            flex-direction: column;
+
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+
+        .Popular-img-container img {
+            width: 100%;
+        }
+
+        .popular-description {
+            flex-wrap: wrap;
+        }
+
+        .Popular {
+            display: block;
+            width: 100%;
+            padding-right: 5px;
+        }
+
+        .read-button {
+            margin-bottom: 24px;
+        }
+
+        .grid-img-container {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+
+        .image-container {
+
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(7, 1fr);
+            gap: 0px;
+            margin-top: 5px;
+        }
+
+        grid-item1 {
+            grid-column: 1/span 1;
+            grid-row: 1/span 1;
+        }
+
+        .grid-item2 {
+            grid-column: 1/span 1;
+            grid-row: 2/span 1;
+        }
+
+        .grid-item3 {
+            grid-column: 1/span 1;
+            grid-row: 3/span 1;
+        }
+
+        .grid-item4 {
+            grid-column: 1/span 1;
+            grid-row: 4/span 1;
+        }
+
+        .grid-item5 {
+            grid-column: 1/span 1;
+            grid-row: 5/span 1;
+        }
+
+        .grid-item6 {
+            grid-column: 1/span 1;
+            grid-row: 6/span 1;
+        }
+
+        .grid-item7 {
+            grid-column: 1/span 1;
+            grid-row: 7/span 1;
+        }
+
+        .image-container img {
+            width: 100%;
+            margin-left: 2px;
+            margin-right: 2px;
+
+            height: 95%;
+        }
+
+        .choose-section {
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-top: 20px;
+        }
+
+        .card-container {
+            flex-direction: column;
+        }
+
+        .card1,
+        .card2 {
+            /* padding-left: 5px; */
+
+            width: 90%;
+        }
+
+        .card3 {
+            width: 90%;
+        }
+
+        .discount {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        .discount-content {
+            width: 90%;
+        }
+
+        .discount-banner {
+            margin-left: 5px;
+            width: 80%;
+        }
+
+        .discount-icon {
+            flex-wrap: wrap;
+        }
+
+
+
+        .discount-banner1 {
+
+            padding-right: 16px;
+            padding-top: 187px;
+            padding-bottom: 16px;
+            margin-bottom: 50px;
+        }
+
+        .thailand-banner {
+            width: 90%;
+            margin: 5px;
+            margin-left: 5px;
+        }
+
+        .discount-banner2 {
+            margin: auto;
+
+            padding-top: 187px;
+
+            margin-left: 5px;
+            padding-bottom: 5px;
+        }
+
+        .perfect-place{
+            flex-direction: column;
+        }
+        .packeg-button{
+            margin-left: 10px;
+        }
+        .perfect-place{
+            margin-left: 5px;
+            margin-right: 5px;
+            flex-direction: column;
+            margin-top:20px;
+        }
+    .perfect-img-container img{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .newsletter{
+        flex-direction: column;
         margin-left: 5px;
         margin-right: 5px;
     }
-
-
-    .header-description {
-        flex-wrap: wrap;
+    .newsletter img {
+width: 100%;
+margin-top: 20px;
     }
-.input-button {
-    width: 255px;
-    margin-bottom: 16px;
-}
-.find-now{
-    width: 260px;
 
-}
-
-.popular-section{
-    flex-direction: column;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-.Popular-img-container img{
-    width: 100%;
-}
-.popular-description{
-    flex-wrap: wrap;
-}
-.Popular{
-    display: block;
-    width: 100%;
-    padding-right: 5px;
-}
-.read-button{
-    margin-bottom: 24px;
-}
-
-.grid-img-container{
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-
-.image-container{
-
-    grid-template-columns: 1fr;
-grid-template-rows: repeat(7, 1fr);
-gap: 0px;
-margin-top: 5px;
-}
-
-grid-item1{
-    grid-column:1/span 1;
-    grid-row: 1/span 1;
-}
-.grid-item2{
-    grid-column: 1/span 1;
-    grid-row: 2/span 1;
-}
-
-.grid-item3{
-grid-column: 1/span 1;
-grid-row: 3/span 1;
-}
-.grid-item4{
-    grid-column: 1/span 1;
-    grid-row: 4/span 1;
-}
-.grid-item5{
-    grid-column: 1/span 1;
-    grid-row: 5/span 1;
-}
-.grid-item6{
-    grid-column: 1/span 1;
-    grid-row: 6/span 1;
-}
-.grid-item7{
-    grid-column: 1/span 1;
-    grid-row: 7/span 1;
-}
-.image-container img{
-    width: 100%;
-margin-left: 2px;
-margin-right: 2px;
-
-height: 95%;
-}
-
+    .subscibe{
+        width: 90%;
+    }
+    .subscribe-button{
+        width: 100%;
+    }
 }
